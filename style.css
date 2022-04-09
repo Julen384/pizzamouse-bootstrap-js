@@ -1,0 +1,11 @@
+html{
+    background-image: url(./media/pic/pizzabackground_Mesa\ de\ trabajo\ 1_Mesa\ de\ trabajo\ 1.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+nav{
+    background-color: #B58E14;
+}
