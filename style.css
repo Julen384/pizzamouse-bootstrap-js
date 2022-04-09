@@ -1,3 +1,7 @@
+*{
+    font-family: 'Raleway', sans-serif;;
+}
+
 html{
     background-image: url(./media/pic/pizzabackground_Mesa\ de\ trabajo\ 1_Mesa\ de\ trabajo\ 1.jpg);
     background-size: cover;
@@ -8,4 +12,14 @@ html{
 
 nav{
     background-color: #B58E14;
+    font-weight: bold;
 }
+
+button{
+    font-weight: bold;
+    border: 10 px solid black;
+    border-radius: 10px;
+    background-color: #F1C332;
+
+}
+
