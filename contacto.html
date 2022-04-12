@@ -20,7 +20,7 @@
 <body>
 
     <!-- NAVBAR -->
-        
+
     <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container-fluid">
             <img class="icono" src="media/ico/pizzaiconoweb-01.png" width="60" alt="">
@@ -58,53 +58,28 @@
         </div>
     </nav>
 
-    <!-- CARROUSEL -->
+    <!-- FORMULARIO -->
 
-    <div id="carouselExampleCaptions" class="carousel slide"        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active imgcarrousel1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="fs-2" style="padding: 5px; color: black; background: white; border: solid black; border-radius: 10px; margin-left: 200px; margin-right: 200px;">¡PIDE A DOMICILIO!</h5>
-                    <p class="fs-3">Si no las entregamos antes de media hora<br>¡TE SALE GRATIS!</p>
-                </div>
-            </div>
-            <div class="carousel-item imgcarrousel2">               
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="fs-2" style="padding: 5px; color: black; background: white; border: solid black; border-radius: 10px; margin-left: 200px; margin-right: 200px;">Ingredientes de Calidad</h5>
-                    <p class="fs-3">Todas nuestras Pizzas están elaboradas a mano por nuestros pizzeros profesionales</p>
-                </div>
-            </div>
-            <div class="carousel-item imgcarrousel3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="fs-2" style="padding: 5px; color: black; background: white; border: solid black; border-radius: 10px; margin-left: 200px; margin-right: 200px;">PIZZAS A LA LEÑA</h5>
-                    <p class="fs-3">Todas nuestras pizzas están hechas en horno a la leña, de ahí su característico tueste, cocción y aroma únicos.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <div>
+        <h1 style="display: flex; align-items: center; justify-content: center; text-align: center; margin: 40px; background-color: #d8a809; border: solid black 1px; border-radius: 10px;">¿Ha habido algún problema? Consúltanos</h1>
     </div>
+
+    <div class="mb-3" style="margin: 40px;">
+        <label for="exampleFormControlInput1" class="form-label">Escribe tu e-mail aquí:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3" style="margin: 40px;">
+        <label for="exampleFormControlTextarea1" class="form-label">Describe brevemente el motivo de tu consulta.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary bg-dark" href="#" type="button">Enviar</button>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    
 </body>
 
 </html>
